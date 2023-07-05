@@ -16,148 +16,117 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTitle: 'IPTV & Digital Signage',
+				
+				singleProjectTag: 'Back-end API Server',
 			},
-			projectImages: [
-				{
-					id: 1,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/ui-project-1.jpg'),
-				},
-				{
-					id: 2,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/web-project-2.jpg'),
-				},
-				{
-					id: 3,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
-				},
-			],
+			// projectImages: [
+			// 	{
+			// 		id: 1,
+			// 		title: '',
+			// 		img: require('@/assets/images/Meshlabs2.jpg'),
+			// 	},
+			// 	{
+			// 		id: 2,
+			// 		title: '',
+			// 		img: require('@/assets/images/iSigns2.jpg'),
+			// 	},
+				
+			// ],
 			projectInfo: {
-				clientHeading: 'About Client',
-				companyInfos: [
-					{
-						id: 1,
-						title: 'Name',
-						details: 'Company Ltd',
-					},
-					{
-						id: 2,
-						title: 'Services',
-						details: 'UI Design & Frontend Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
-					},
-				],
-				objectivesHeading: 'Objective',
-				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+				// clientHeading: 'Company',
+				// companyInfos: [
+				// 	{
+				// 		id: 1,
+				// 		title: 'Name',
+				// 		details: 'Bittel Asia Inc.',
+				// 	},
+				// ],
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'Tools & Technologies I used as a Back-end Developer',
 						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'Ubuntu',
+							'Mariadb',
+							'Nginx',
+							'PHP Laravel 9',
+							'PHP Codeigniter 3',
+							'Sanctum',
+							'Intervention',
+							'Spatie',
+							'Postman',
 						],
 					},
 				],
-				projectDetailsHeading: 'Challenge',
+				projectDetailsHeading: '',
 				projectDetails: [
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							'IPTV is a TV solution that enhances the guest hotel experience.',
 					},
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							'This application gives Hotel, the interactive TV system it deserves '+
+							'with a Hotel IPTV solution. Old and pricey cable or satellite solutions are '+
+							'a thing of the past with the rise of SmartTVs, Set-Top-Boxes and fast IPTV Networks, '+
+							'so this app bring innovation for a better and affordable Hotel TV solution.',
 					},
 					{
 						id: 3,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							'It provides, customized live TV interface that can be tailored with the hotel workflow, '+
+							'an AirMedia that let the guest stream music, videos, images, etc, '+
+							'an E-Concierge that let guest request amenities and concierge services, '+
+							'an In-room Dining that let guest navigate menu to order food and beverages on the tv, '+
+							'a Tv Messaging that let the operators and service agents to notify guests, '+
+							'a Video on demand that let guest buy hotel latest HD movies, '+
+							'a dashboard that let Operators view the status of orders, sales, performance, revenue issues and other items via a real-time web dashboard.'+
+							'and a customizable interface allows you to create highly customisable TV interfaces to suit client preferences.',
 					},
 					{
 						id: 4,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							'Digital Signage same with IPTV, can also be deployed to provide Digital Signage features '+
+							'to the property. By using the same equipment, the hotel enjoys significant cost savings and '+
+							'efficiency.',
 					},
 				],
-				socialSharingsHeading: 'Share This',
-				socialSharings: [
-					{
-						id: 1,
-						name: 'Twitter',
-						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
-					},
-					{
-						id: 2,
-						name: 'Instagram',
-						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
-					},
-					{
-						id: 3,
-						name: 'Facebook',
-						icon: 'facebook',
-						url: 'https://facebook.com/',
-					},
-					{
-						id: 4,
-						name: 'LinkedIn',
-						icon: 'linkedin',
-						url: 'https://linkedin.com/',
-					},
-					{
-						id: 5,
-						name: 'Youtube',
-						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
-					},
-				],
+				// socialSharingsHeading: 'Site',
+				// socialSharings: [
+				// 	{
+				// 		id: 1,
+				// 		name: 'Website',
+				// 		icon: 'globe',
+				// 		url: 'http://www.bittelasia.com/index.php/site/iptv_solutions',
+				// 	},
+				// ],
 			},
 			relatedProject: {
-				relatedProjectsHeading: 'Related Projects',
-				relatedProjects: [
-					{
-						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
-					},
-					{
-						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
-					},
-					{
-						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
-					},
-				],
+				// relatedProjectsHeading: 'Related Projects',
+				// relatedProjects: [
+				// 	{
+				// 		id: 1,
+				// 		title: 'Mobile UI',
+				// 		img: require('@/assets/images/mobile-project-1.jpg'),
+				// 	},
+				// 	{
+				// 		id: 2,
+				// 		title: 'Web Application',
+				// 		img: require('@/assets/images/web-project-1.jpg'),
+				// 	},
+				// 	{
+				// 		id: 3,
+				// 		title: 'UI Design',
+				// 		img: require('@/assets/images/ui-project-2.jpg'),
+				// 	},
+				// 	{
+				// 		id: 4,
+				// 		title: 'Kabul Mobile App UI',
+				// 		img: require('@/assets/images/mobile-project-2.jpg'),
+				// 	},
+				// ],
 			},
 		};
 	},

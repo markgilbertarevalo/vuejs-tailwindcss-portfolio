@@ -1,21 +1,21 @@
 <script>
-import Button from '../reusable/Button.vue';
-import FormInput from '../reusable/FormInput.vue';
-import FormTextarea from '../reusable/FormTextarea.vue';
-export default { components: { Button, FormInput, FormTextarea } };
+//import Button from '../reusable/Button.vue';
+//import FormInput from '../reusable/FormInput.vue';
+//import FormTextarea from '../reusable/FormTextarea.vue';
+export default { components: {}};// Button, }};//FormInput, FormTextarea } };
 </script>
 
 <template>
 	<div class="w-full md:w-1/2">
-		<div
+		<!-- <div
 			class="leading-loose max-w-xl m-4 p-7 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
-		>
-			<p
+		> -->
+			<!-- <p
 				class="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8"
 			>
 				Contact Form
-			</p>
-			<form action="#" class="font-general-regular space-y-7">
+			</p> -->
+			<!-- <form action="#" class="font-general-regular space-y-7">
 				<FormInput label="Full Name" inputIdentifier="name" />
 				<FormInput
 					label="Email"
@@ -33,8 +33,8 @@ export default { components: { Button, FormInput, FormTextarea } };
 						aria-label="Send Message"
 					/>
 				</div>
-			</form>
-		</div>
+			</form> -->
+		<!-- </div> -->
 	</div>
 </template>
 

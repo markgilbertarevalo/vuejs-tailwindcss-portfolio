@@ -5,10 +5,10 @@ export default {
 </script>
 
 <template>
-	<router-link
-		to="/projects/single-project"
+	<a	
 		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
+		:href="project.href"
 	>
 		<div>
 			<img
@@ -28,7 +28,7 @@ export default {
 				>{{ project.category }}</span
 			>
 		</div>
-	</router-link>
+	</a>
 </template>
 
 <style lang="scss" scoped></style>
