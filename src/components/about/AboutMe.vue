@@ -11,12 +11,40 @@ export default {
 				{
 					id: 2,
 					bio:
-						'Proficient in integrating back-end server with front-end by the use of RESTful APIs and testing it through POSTMAN.',
+						'Proficient in integrating back-end server with front-end by '+
+						'the use of RESTful APIs and testing it through POSTMAN. \n'+
+						'Exposed in project development and deployment directly to our valued client\'s '+
+						'hotels.',
 				},
 				{
 					id: 3,
 					bio:
 						'In addition to my love in programming technology, I am also interested in music. I was a drummer and sometimes a violinist in our church.',
+				},
+				{
+					id: 4,
+					bio:
+						'Tools & Technologies:',
+				},
+				{
+					id: 5,
+					bio:
+						'-Ubuntu -Nginx -Crontab -Daemon/Service',
+				},
+				{
+					id: 6,
+					bio:
+						'-MariaDB',
+				},
+				{
+					id: 7,
+					bio:
+						'',
+				},
+				{
+					id: 5,
+					bio:
+						'',
 				},
 			],
 		};
