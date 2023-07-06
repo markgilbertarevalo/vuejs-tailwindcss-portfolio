@@ -9,11 +9,11 @@ export default {
 		};
 	},
 	created() {
-		this.theme = localStorage.getItem('theme') || 'light';
+		this.theme = localStorage.getItem('theme') || 'dark';
 	},
 	mounted() {
 		feather.replace();
-		this.theme = localStorage.getItem('theme') || 'light';
+		this.theme = localStorage.getItem('theme') || 'dark';
 	},
 	updated() {
 		feather.replace();

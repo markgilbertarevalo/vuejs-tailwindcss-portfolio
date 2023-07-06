@@ -21,31 +21,9 @@ export default {
 					bio:
 						'In addition to my love in programming technology, I am also interested in music. I was a drummer and sometimes a violinist in our church.',
 				},
-				{
-					id: 4,
-					bio:
-						'Tools & Technologies:',
-				},
-				{
-					id: 5,
-					bio:
-						'-Ubuntu -Nginx -Crontab -Daemon/Service',
-				},
-				{
-					id: 6,
-					bio:
-						'-MariaDB',
-				},
-				{
-					id: 7,
-					bio:
-						'',
-				},
-				{
-					id: 5,
-					bio:
-						'',
-				},
+				
+				
+				
 			],
 		};
 	},

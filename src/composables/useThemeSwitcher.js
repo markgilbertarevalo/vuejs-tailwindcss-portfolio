@@ -5,9 +5,9 @@ export default function useThemeSwitcher() {
 
 	function toggleTheme() {
 		if (currentTheme.value == 'dark') {
-			setLightTheme();
-		} else {
 			setDarkTheme();
+		} else {
+			setLightTheme();
 		}
 	}
 
