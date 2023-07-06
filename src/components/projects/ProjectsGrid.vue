@@ -2,18 +2,24 @@
 import feather from 'feather-icons';
 //import ProjectsFilter from './ProjectsFilter.vue';
 import ProjectSingle from './ProjectSingle.vue';
+import ProjectSingleGit from './ProjectSingleGit.vue';
 import projects from '../../data/projects';
+import projectgit from '../../data/gitproject'
 
 export default {
 	components: { 
-			ProjectSingle, //ProjectsFilter
+			ProjectSingle, ProjectSingleGit,//ProjectsFilter
 		},
 	data: () => {
 		return {
 			projects,
+			projectgit,
 			projectsHeading: 'Projects Portfolio',
+			projectsHeading2: 'Mini Projects GIT Sample',
 			selectedCategory: '',
+			selectedCategoryGit: '',
 			searchProject: '',
+			searchProjectGit: '',
 		};
 	},
 	computed: {
@@ -25,6 +31,14 @@ export default {
 				return this.filterProjectsBySearch();
 			}
 			return this.projects;
+		},
+		filteredProjectsGit() {
+			if (this.selectedCategory) {
+				return this.filterProjectsGitByCategory();
+			} else if (this.searchProject) {
+				return this.filterProjectsGitBySearch();
+			}
+			return this.projectgit;
 		},
 	},
 	methods: {
@@ -38,10 +52,25 @@ export default {
 				return category.includes(this.selectedCategory);
 			});
 		},
+		// Filter git projects by category
+		filterProjectsGitByCategory() {
+			return this.projectgit.filter((item) => {
+				let category =
+					item.category.charAt(0).toUpperCase() +
+					item.category.slice(1);
+				console.log(category);
+				return category.includes(this.selectedCategoryGit);
+			});
+		},
 		// Filter projects by title search
 		filterProjectsBySearch() {
 			let project = new RegExp(this.searchProject, 'i');
 			return this.projects.filter((el) => el.title.match(project));
+		},
+		// Filter git projects by title search
+		filterProjectsGitBySearch() {
+			let projectgit= new RegExp(this.searchProjectGit, 'i');
+			return this.projectgit.filter((el) => el.title.match(projectgit));
 		},
 	},
 	mounted() {
@@ -143,6 +172,30 @@ export default {
 				:project="project"
 			/>
 		</div>
+		
+	</section>
+
+	<section class="pt-10 sm:pt-14">
+		<!-- Projects grid title -->
+		<div class="text-center">
+			<p
+				class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light"
+			>
+				{{ projectsHeading2 }}
+			</p>
+		</div>
+
+		<!-- Projects grid -->
+		<div
+			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-6 sm:gap-10"
+		>
+				<ProjectSingleGit
+					v-for="projectgit in filteredProjectsGit"
+					:key="projectgit.id"
+					:projectgit="projectgit"
+				/>
+		</div>
+		
 	</section>
 </template>
 

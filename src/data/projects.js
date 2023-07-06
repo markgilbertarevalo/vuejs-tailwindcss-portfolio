@@ -30,13 +30,13 @@ const projects = [
 		img: require('@/assets/images/mella2.jpg'),
 		href: 'https://markgilbertportfolio.onrender.com/projects/single-project',
 	},
-	{
-		id: 5,
-		title: 'Music Social Media Network API',
-		category: 'Back-end API GIT',
-		img: require('@/assets/images/msn.jpg'),
-		href: 'https://github.com/markgilbertarevalo/music-social-media-network-api.git',
-	},
+	// {
+	// 	id: 5,
+	// 	title: 'Music Social Media Network API',
+	// 	category: 'Back-end API GIT',
+	// 	img: require('@/assets/images/msn.jpg'),
+	// 	href: 'https://github.com/markgilbertarevalo/music-social-media-network-api.git',
+	// },
 	// {
 	// 	id: 6,
 	// 	title: 'Apple Design System',
