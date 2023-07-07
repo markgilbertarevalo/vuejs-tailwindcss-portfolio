@@ -6,7 +6,7 @@ export default {
 				{
 					id: 1,
 					bio:
-						'I\'m Mark Gilbert Arevalo a PHP Back-end Developer with 4years and 9months of experience in developing and maintaining web applications.',
+						'I\'m Mark Gilbert Arevalo a PHP Back-end Developer with 4years and 8months of experience in developing and maintaining web applications.',
 				},
 				{
 					id: 2,
