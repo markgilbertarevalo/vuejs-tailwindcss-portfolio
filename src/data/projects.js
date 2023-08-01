@@ -18,14 +18,14 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'Hotel IPTV (Proposal)',
+		title: 'Hotel IPTV',
 		category: 'Back-end API Server',
 		img: require('@/assets/images/solaire2.jpg'),
 		href: 'https://markgilbertportfolio.onrender.com/projects/single-project',
 	},
 	{
 		id: 4,
-		title: 'Hotel Digital Signage (Proposal)',
+		title: 'Hotel Digital Signage',
 		category: 'Back-end API Server',
 		img: require('@/assets/images/mella2.jpg'),
 		href: 'https://markgilbertportfolio.onrender.com/projects/single-project',
