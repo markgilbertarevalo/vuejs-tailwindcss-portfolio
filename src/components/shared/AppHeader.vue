@@ -1,5 +1,5 @@
 <script>
-import ThemeSwitcher from '../ThemeSwitcher';
+//import ThemeSwitcher from '../ThemeSwitcher';
 //import HireMeModal from '../HireMeModal.vue';
 import feather from 'feather-icons';
 import AppHeaderLinks from './AppHeaderLinks.vue';
@@ -7,7 +7,7 @@ import AppHeaderLinks from './AppHeaderLinks.vue';
 
 export default {
 	components: {
-		ThemeSwitcher,
+		//ThemeSwitcher,
 		//HireMeModal,
 		AppHeaderLinks,
 		//Button,
@@ -43,7 +43,7 @@ export default {
 	},
 
 	created() {
-		this.theme = localStorage.getItem('theme') || 'dark';
+		this.theme = localStorage.getItem('theme') || 'light';
 	},
 	mounted() {
 		feather.replace();
@@ -101,11 +101,11 @@ export default {
 				</div> -->
 
 				<!-- Theme switcher small screen -->
-				<theme-switcher
+				<!-- <theme-switcher
 					:theme="theme"
 					@themeChanged="updateTheme"
 					class="block sm:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg"
-				/>
+				/> -->
 
 				<!-- Small screen hamburger menu -->
 				<div class="sm:hidden">

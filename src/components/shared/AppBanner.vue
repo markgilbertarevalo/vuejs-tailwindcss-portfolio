@@ -9,7 +9,7 @@ export default {
 		};
 	},
 	created() {
-		this.theme = localStorage.getItem('theme') || 'dark';
+		this.theme = localStorage.getItem('theme') || 'light';
 	},
 	mounted() {
 		feather.replace();

@@ -23,7 +23,7 @@ export default {
 				},
 				{
 					id: 3,
-					name: '0926-437-3620',
+					name: '(+63)926-437-3620',
 					icon: 'phone',
 				},
 			],
