@@ -9,12 +9,13 @@ const projects = [
 		img: require('@/assets/images/msn.jpg'),
 		href: 'https://github.com/markgilbertarevalo/music-social-media-network-api.git',
 	},
-	// {
-	// 	id: 6,
-	// 	title: 'Apple Design System',
-	// 	category: 'Web Application',
-	// 	img: require('@/assets/images/web-project-1.jpg'),
-	// },,
+	{
+		id: 2,
+		title: 'Task Management',
+		category: 'Back-end API GIT',
+		img: require('@/assets/images/msn.jpg'),
+		href: 'https://github.com/markgilbertarevalo/laravel8taskmanagementsystemapi.git',
+	},
 ];
 
 export default projects;
